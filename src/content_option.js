@@ -1,48 +1,53 @@
-const logotext = "JOHN";
+const logotext = "AIDEN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Aiden Brown",
+    description: "I’m Aiden Brown, a Solution Architect and Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hello, I’m Aiden Brown",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Experienced Cloud Architect",
+        second: "AWS Certified",
+        third: "Experienced Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a versatile and skilled Solution Architect with a strong background in AWS environments. With extensive experience in both development and architecture, I bring a unique perspective to solving complex challenges. As a seasoned developer, I am fluent in a wide range of programming languages, including Python, JavaScript, React, Node.js, HTML, CSS, Flask, Java, and C. My expertise extends to database management, enabling me to design efficient and scalable solutions. Throughout my career, I have demonstrated a passion for delivering innovative and robust solutions that exceed expectations. My commitment to staying updated with the latest technologies ensures that I am always at the forefront of the ever-evolving tech landscape.",
+    your_img_url: "https://www.linkpicture.com/q/IMG_5389.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Me",
+    aboutme: "My name is Aiden Brown, I am from Tampa, FL.  I possess a passionate drive to expand my expertise in technology, with a specific focus on cloud architecture and development. Already equipped with considerable expertise in these domains, I am now seeking promising opportunities to propel my career to new heights and contribute my skills to innovative projects. I am eager to embrace challenges, grow my knowledge, and make meaningful contributions to the ever-evolving world of cloud technology.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "",
+        where: "",
+        date: "",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "",
+        where: "",
+        date: "",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "",
+        where: "",
+        date: "",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+        name: "AWS",
+        value: 70,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Azure",
+        value: 20,
+    },
+    {
+        name: "Python",
+        value: 90,
     },
     {
         name: "Javascript",
@@ -50,25 +55,29 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 65,
     },
     {
         name: "Jquery",
         value: 85,
     },
+    {
+        name: "Java",
+        value: 35,
+    },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Cloud Architecture",
+        description: "As an experienced AWS Solution Architect, I possess in-depth expertise across all AWS services. I am well-versed in architecting and deploying scalable cloud solutions. With a strong grasp of serverless architecture, IAM, and networking tools like VPC, I can deliver secure, efficient, and cost-effective solutions tailored to diverse project needs.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Databases",
+        description: "I have extensive expertise in deploying and managing Amazon RDS (Relational Database Service) instances, which include popular database engines like MySQL, PostgreSQL, SQL Server, and Oracle. Moreover, I am well-versed in leveraging Amazon DynamoDB for NoSQL database needs, providing fast and flexible document and key-value data storage.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Programming",
+        description: "I possess a comprehensive understanding of the programming languages commonly used within the AWS ecosystem. I am fluent in key languages such as Python, JavaScript, Java, and Node.js, enabling me to develop versatile and efficient applications that seamlessly integrate with AWS services. Additionally, my proficiency in languages like C and React allows me to build robust solutions that cater to specific project requirements, ensuring optimal performance and reliability within the AWS environment.",
     },
 ];
 
@@ -136,11 +145,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "aiden.brownwebsite@gmail.com",
+    YOUR_FONE: "(727)-470-4701",
+    description: "",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
@@ -149,7 +156,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/aiden-brown-98724225a/",
     twitter: "https://twitter.com",
 };
 export {
