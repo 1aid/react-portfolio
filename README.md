@@ -1,1 +1,1 @@
-
+This project showcases my skills in web development using React and Node.js. The website is designed to be interactive, visually appealing, and user-friendly. Through this project, I have honed my proficiency in building dynamic frontend components with React and implementing server-side functionalities with Node.js. Feel free to explore the website which has a Contact page, Home page, and an About page!
